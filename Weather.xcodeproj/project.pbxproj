@@ -12,8 +12,6 @@
 		D110FB81298FD57200D6B1A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D110FB80298FD57200D6B1A1 /* Assets.xcassets */; };
 		D110FB84298FD57200D6B1A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D110FB82298FD57200D6B1A1 /* LaunchScreen.storyboard */; };
 		D110FB8F298FD5F100D6B1A1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110FB8E298FD5F100D6B1A1 /* HomeViewController.swift */; };
-		D110FB96298FD6F100D6B1A1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110FB94298FD6F100D6B1A1 /* TableViewCell.swift */; };
-		D110FB97298FD6F100D6B1A1 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D110FB95298FD6F100D6B1A1 /* TableViewCell.xib */; };
 		D110FB99298FDEE300D6B1A1 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D110FB98298FDEE300D6B1A1 /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,8 +23,6 @@
 		D110FB83298FD57200D6B1A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D110FB85298FD57200D6B1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D110FB8E298FD5F100D6B1A1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		D110FB94298FD6F100D6B1A1 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		D110FB95298FD6F100D6B1A1 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		D110FB98298FDEE300D6B1A1 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,8 +79,6 @@
 		D110FB8C298FD58500D6B1A1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D110FB94298FD6F100D6B1A1 /* TableViewCell.swift */,
-				D110FB95298FD6F100D6B1A1 /* TableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,7 +150,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D110FB84298FD57200D6B1A1 /* LaunchScreen.storyboard in Resources */,
-				D110FB97298FD6F100D6B1A1 /* TableViewCell.xib in Resources */,
 				D110FB81298FD57200D6B1A1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,7 +165,6 @@
 				D110FB7A298FD57100D6B1A1 /* SceneDelegate.swift in Sources */,
 				D110FB99298FDEE300D6B1A1 /* WeatherManager.swift in Sources */,
 				D110FB8F298FD5F100D6B1A1 /* HomeViewController.swift in Sources */,
-				D110FB96298FD6F100D6B1A1 /* TableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
